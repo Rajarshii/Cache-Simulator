@@ -26,5 +26,6 @@ For example:
 
 ### Trace Details
 The traces used and the trace format is the same as the one available from the following [website](https://occs.oberlin.edu/~ctaylor/classes/210SP13/cache.html)
+
 Normally, the trace looks like the following:
-# <address> <instructions> 
+\# <address> <instructions> 
