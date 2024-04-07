@@ -19,7 +19,7 @@ More items:
 g++ cache_simulator.cpp --std=c++2a -o cache_sim -O3
 
 ### Sample Run Command
-./cache_simulator/cache_sim <trace_file_path> <cache_size_in_bytes> <associativity> <block_size> <writeback_penalty> <miss_penalty>
+./cache_simulator/cache_sim trace_file_path cache_size_in_bytes associativity block_size writeback_penalty miss_penalty
 
 For example:
 ./cache_simulator/cache_sim cache_traces/traces/mcf.trace 65536 8 32 0 42
@@ -28,4 +28,4 @@ For example:
 The traces used and the trace format is the same as the one available from the following [website](https://occs.oberlin.edu/~ctaylor/classes/210SP13/cache.html)
 
 Normally, the trace looks like the following:
-\# <address> <instructions> 
+\# address instructions
