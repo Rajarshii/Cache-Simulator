@@ -1,7 +1,7 @@
 # Cache-Simulator
 A simple trace-based cache Simulator - 
 
-The project started from the inspiration of CoffeBeforeArch's post on the same. The code relies on some of the ideas from the blog. 
+The project was inspired by CoffeBeforeArch's post on the same topic. The code relies on implementation ideas from the blog. 
 One objective was to ensure that the implementation facilitates future modifications to enhance the robustness of the simulator.
 
 The following list details some of the current features and planned features:
